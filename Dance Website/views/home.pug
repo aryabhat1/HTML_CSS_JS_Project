@@ -1,0 +1,65 @@
+extends base.pug    
+
+block scripts
+   script(src="/static/index.js") 
+
+block style 
+   style 
+      include ../static/style.css   
+
+block content 
+    //- nav#navbar 
+    //-    ul
+    //-      div#logo
+    //-          img(src="/static/sponsor/logo-dc.jpg", alt="", srcset="")
+    //-          | HDA 
+    //-      li #[a(href='/') Home ]
+    //-      li #[a(href='/') About Us ]
+    //-      li #[a(href='/') Services ]
+    //-      li #[a(href='/') Contact Us ]
+    //-      li #[a(href='/') Career ]
+    //-      li #[a(href='/') Class Info ]
+
+    section#introSection
+        div Welcome to Harry's Dance Academy 
+        div.small Eat Dance Sleep Repeat 
+
+    section#missionSection 
+        h3 Our Mission Statement 
+        div.card
+          h4 Dance Perfection
+          div.card-box
+              div.card-img
+                 img(src="/static/sponsor/logo.jpeg", alt="", srcset="")
+
+              .card-content 
+              p This is the best dance school of the universe.
+        div.card
+          h4 Dance as you like
+          div.card-box
+              div.card-img
+                 img(src="/static/sponsor/dance-logo-1.png", alt="", srcset="")
+
+              .card-content 
+              p This is the best dance school of the universe.
+        div.card
+          h4 Expert Teaching 
+          div.card-box
+              div.card-img
+                 img(src="/static/sponsor/dance-logo-2.jpeg", alt="", srcset="")
+
+              .card-content 
+              p This is the best dance school of the universe.
+         
+        
+
+
+    section#sponsorsSection 
+        h3  Our Sponsors and Clients
+        div#sponsors
+           img(src="/static/sponsor/bmw.jpeg", alt="Sponsor Image", srcset="", class="spImage")
+           img(src="/static/sponsor/tayota.png", alt="Sponsor Image", srcset="", class="spImage")
+           img(src="/static/sponsor/nvidia.jpeg", alt="Sponsor Image", srcset="", class="spImage")
+           img(src="/static/sponsor/amazon.png", alt="Sponsor Image", srcset="", class="spImage")
+
+    

@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
+
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+
+}
+
+#logo{
+    display: flex;
+    color: black;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 20px;
+    margin-right: 140px;
+
+    
+}
+#logo img{
+    height: 40px;
+    filter: invert(1);
+}
+#navbar{
+    background-color:red;
+    padding: 13px 4px;
+    font-family: 'Kaisei Tokumin', serif;
+    
+
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    
+
+}
+
+#navbar li{
+    list-style: none;
+    font-family: 'Kaisei Tokumin', serif;
+}
+
+#navbar li a{
+    text-decoration: none;
+    /* display: flex; */
+    margin: 10px;
+    border: 5px 10px;
+    padding: 3px 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    
+}
+#navbar li a:hover{
+    color:black;
+    font-weight: bold;
+}
+
+#introSection{
+    color: rgb(73, 194, 17);
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+    font-family: 'Kaisei Tokumin', serif;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url(../static/bg-4.jpeg);
+    height: 600px;
+    background-color: red;
+
+}
+#introSection div.small{
+    font-size: 40px;
+    font-family: 'Kaisei Tokumin', serif;
+    padding-top: 3px;
+    
+}
+
+#missionSection {
+    height: 300px;
+    background-color : white;
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 20px;  
+    margin:auto;
+    width: 57%;
+    
+}
+#missionSection h3{
+    text-align: center;
+    padding-top: 22px;
+    
+    
+}
+#missionSection h4{
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 25px 17px;
+    height: 170px;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    margin-top: 15px;
+    font-family: 'Kaisei Tokumin', serif;
+
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card-img{
+    height: 100px;
+    padding: 10px 14px;
+    /* padding-top: 5px; */
+
+}
+.card-img img{
+    height: inherit;
+    /* padding: 0 14px; */
+    margin: 5px 5px;
+}
+.card-content{
+    padding: 0 5px;
+
+}
+.card-content p{
+    font-size: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    
+
+
+#sponsorsSection{
+    height: 300px;
+    background-color: rgb(233, 233, 187);
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 20px;
+
+}
+
+#sponsorsSection h3{
+    text-align: center;
+    padding-top: 22px;
+
+
+}
+
+#sponsors{
+    height: 170px;
+    max-height: 300px;
+    margin: 15px 60px;
+}
+.spImage{
+    height: 70%;
+    margin: 20px 100px;
+}
+
+#footer{
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 20px;
+    height: 60px;
+    /* width: 100%; */
+    background-color: red;
+    padding: 15px 600px;
+    /* margin: 20px; */
+      
+
+}
+footer h4{
+    text-align: center;
+}

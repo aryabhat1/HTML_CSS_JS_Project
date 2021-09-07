@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Date and Time tutorial</title>
+
+
+
+</head>
+
+<style>
+    .container{
+        font-size: 24px;
+        background-color: blanchedalmond;
+        border: 4px solid grey;
+        padding: 34px;
+        margin: 4px;
+        text-align: center;
+    }
+    #time{
+        font-weight: bold;
+    }
+</style>
+<body>
+<div class="container">
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis laborum suscipit sed ratione nisi expedita esse fugiat cum deleniti earum vero nostrum omnis, neque ea beatae, autem dignissimos iusto asperiores?</p>
+
+<div class="container">
+
+    Current Time is <span id= "time"></span>
+</div>
+
+
+
+</div>
+
+
+    <script>
+        console.log("This is date and time tutorial.")
+        let now = new Date(1000);
+        console.log(now)
+
+        let newDate = new Date(5600, 4, 6, 3, 2, 34);
+        console.log(newDate);
+
+        let yr = newDate.getFullYear();
+        console.log("The year is: ", +yr);
+
+        function updateTime(){
+            time.innerHTML = new Date();
+        }
+
+    </script>
+</body>
+</html>

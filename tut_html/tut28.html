@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box Tutorial</title>
+    <style>
+        .container{
+            height:544px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+/* 
+            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+            align-items: flex-end;
+            align-items: flex-start;
+            align-items: stretch; */
+            
+        }
+        .item{
+            width: 200px;
+            background-color: tomato;
+            border: 2px solid green;
+            margin: 10px;
+            padding: 3px;
+        }
+        #item-1{
+            flex-grow: 2;
+            flex-shrink: 3;
+        }
+        #item-2{
+            flex-grow: 4;
+            flex-shrink: 5;
+        }
+        #item-3{
+            order: 40;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h3>This is flex box Tutorial</h3>
+    <div class="container">
+        <div class="item" id="item-1">First box</div>
+        <div class="item" id="item-2">Second box</div>
+        <div class="item" id="item-3">Third box</div>
+        <!-- <div class="item" id="item-4">Fourth box</div>
+        <div class="item" id="item-5">Fifth box</div>
+        <div class="item" id="item-6">Sixth box</div> -->
+
+
+    </div>
+    
+</body>
+</html>

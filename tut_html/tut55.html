@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops Tutorial</title>
+</head>
+<body>
+    <div class="container">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, libero!</p>
+
+    </div>
+    <script>
+        // console.log("My loop");
+        // let i = 0;
+        // for(i=0; i<3; i++){
+        //     console.log(i);
+        // }
+
+        let friends = ["Rohan", "Dipti", "Sita", "Gita", "Harry"];
+
+        // for (let index = 0; index < friends.length; index++) {
+        //     // const element = friends[index];
+        //     // console.log(element);
+        //     console.log(friends[index]);
+
+        for (element of friends){
+            console.log("Hello Friend, " + element +  " to javascript");
+        }
+
+        let employee={
+            name: "Ravi",
+            salary: 2,
+            channel: "Code with Harry",
+        }
+
+        for (key in employee){
+            console.log(`The ${key} of employee is ${employee[key]}`);
+        }
+
+            
+        
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+*{
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+nav{
+    background-color: gray;
+    padding: 3px 12px;
+}
+
+ul{
+    display:flex;
+    flex-direction: row;
+
+}
+li{
+    list-style: none;
+    padding: 3px 14px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+
+}
+
+.container{
+    margin: 2px 4px;
+    background-color: yellow;
+    max-width: 70%;
+
+}
+
+input, textarea{
+    display: block;
+    padding: 3px 5px;
+    margin: 15px 9px;
+    
+
+}

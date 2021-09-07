@@ -1,0 +1,26 @@
+//- layout.pug and base.pug
+doctype html 
+html
+  head
+    //- title My Site - #{title}
+    title "Harry Dance Academy"
+    block scripts
+    //-   script(src='/jquery.js')
+    block style 
+  body
+    nav#navbar 
+       ul
+         div#logo
+             img(src="/static/sponsor/logo-dc.jpg", alt="", srcset="")
+             | HDA 
+         li #[a(href='/') Home ]
+         li #[a(href='/') About Us ]
+         li #[a(href='/') Services ]
+         li #[a(href='/contact') Contact Us ]
+         li #[a(href='/') Career ]
+         li #[a(href='/') Class Info ]
+
+    block content
+    block#footer
+        //- p some footer content
+        | Copyright @ 2019 HarryDanceAcademy.com | All rights reserved 

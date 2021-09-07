@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope and Conditions</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+            <li>Item4</li>
+            <li>Item5</li>
+        </ul>
+    </div>
+    <script>
+        var str = "This is a string";
+        console.log(str);
+
+        let a = "u";
+        {
+            console.log(a);
+        }
+
+        let age = 4;
+        if(age > 18){
+            console.log("You can drink water");
+        }
+        else if (age = 4) {
+            console.log("Age is 4");
+        }
+        else{
+            console.log("You can drink cold drink.");
+        }
+
+        let b = 4;
+        switch (b) {
+            case 4:
+                console.log("This is 4")
+                
+                break;
+
+                case 41:
+                    consol.log("This is 41")
+                    break;
+
+        
+            default:
+                console.log("Nothing to print");
+                break;
+        }
+
+
+    </script>
+</body>
+</html>
